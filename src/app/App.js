@@ -1,6 +1,11 @@
+import Section from './Section.js'
+
 const App = () => {
     return ( 
+        <>
         <Header />
+        <Section />
+        </>
      );
 }
  
