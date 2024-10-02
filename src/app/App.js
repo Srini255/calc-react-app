@@ -1,12 +1,8 @@
-import Head from 'next/head';
 import Section from './Section.js'
 
 const App = () => {
     return ( 
         <>
-        <Head>
-        <link rel="icon" href="/img/logo.png" type="image/x-icon" />
-        </Head>
         <Header />
         <Section />
         </>
