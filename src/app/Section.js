@@ -4,7 +4,7 @@ import { useState } from "react";
 
 function Section() {
      const [display,setDisplay]=useState('');
-     const handleClick = (val) => setDisplay(display + val);
+     const handleClick = (val) => setDisplay(display + String(val));
      const handleEqual = () =>{
           try{
                setDisplay(eval(display));
